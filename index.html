@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number!</title>
+    <link rel="icon" href="img/icon.jpg">
+    
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="header">
+    <button class="btn btn-primary btn-lg"> Again! </button>
+    <p class="text-right">(Between 1 and 20)</p>
+  </div>
+  <div class="main-body">
+    <p class="promt text-center alert alert-primary">  </p>
+    <br><br>
+    <h1 class="text-center">Guess my number!</h1>
+    <br>
+    <hr>
+    <div class="number-box">
+      <div class="number">?</div>
+    </div>
+    <input type="number" class="guess">
+    <button class="btn btn-info">Check!</button>
+  </div>
+  
+  <div class="body-right-side">
+    <h4 class="message">Start guessing....❓</h4>
+    <h5 class="scoreSelect">Score: <span class="score"> 20</span></h5>
+    <h6>Highscore: <span class="hScore">0</span></h6>
+  </div>
+
+    
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>
